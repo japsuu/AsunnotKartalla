@@ -17,8 +17,11 @@ def overwrite_listings_file(data):
 
 
 def read_listings_file() -> []:
-    with open(config.ioService_LISTINGS_FILENAME, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    try:
+        with open(config.ioService_LISTINGS_FILENAME, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except:
+        return None
 
 
 def overwrite_map_file(data):
