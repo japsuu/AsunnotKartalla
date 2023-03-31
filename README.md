@@ -1,6 +1,6 @@
 # AsunnotKartalla
 
-![Title img](/Screenshots/map_page_vaasa_info.png)
+![Title img](/Screenshots/map_page.png)
 
 ## Info
 
